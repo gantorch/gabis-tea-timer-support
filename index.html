@@ -1,40 +1,40 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Gabi's Tea Timer Support</title>
     <style>
-      :root { color-scheme: light dark; --bg: #fbf5df; --text: #17342c; --muted: #6f6257; --card: rgba(255, 252, 239, 0.78); --line: rgba(23, 52, 44, 0.14); }
-      @media (prefers-color-scheme: dark) { :root { --bg: #17251f; --text: #f8f0d2; --muted: #d6cbb2; --card: rgba(255, 252, 239, 0.08); --line: rgba(248, 240, 210, 0.18); } }
-      * { box-sizing: border-box; }
-      body { margin: 0; min-height: 100vh; background: radial-gradient(circle at top left, rgba(228, 173, 66, 0.18), transparent 34rem), var(--bg); color: var(--text); font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; line-height: 1.6; }
-      main { width: min(720px, calc(100vw - 40px)); margin: 0 auto; padding: 64px 0; }
-      section { background: var(--card); border: 1px solid var(--line); border-radius: 24px; padding: 32px; box-shadow: 0 18px 45px rgba(23, 52, 44, 0.10); }
-      h1 { margin: 0 0 18px; font-size: clamp(2rem, 6vw, 3.2rem); line-height: 1.05; letter-spacing: -0.02em; }
-      h2 { margin: 32px 0 8px; font-size: 1.05rem; }
-      p { margin: 0 0 14px; color: var(--muted); }
-      a { color: inherit; font-weight: 700; }
-      ul { color: var(--muted); padding-left: 1.2rem; margin: 0; }
+      body {
+        margin: 40px;
+        max-width: 720px;
+        color: #111;
+        background: #fff;
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+        line-height: 1.5;
+      }
+
+      h1 {
+        margin-top: 0;
+      }
+
+      a {
+        color: #0645ad;
+      }
     </style>
   </head>
   <body>
-    <main>
-      <section>
-        <h1>Gabi's Tea Timer Support</h1>
-        <p>For help, questions, bug reports, or privacy requests, email <a href="mailto:alvinzus01@gmail.com">alvinzus01@gmail.com</a>.</p>
+    <h1>Gabi's Tea Timer Support</h1>
 
-        <h2>About the app</h2>
-        <p>Gabi's Tea Timer is a local-first tea timer app for saving favorite steep times, temperatures, tea icons, and preferences. No account is required.</p>
+    <p>For help, questions, bug reports, or privacy requests, email <a href="mailto:alvinzus01@gmail.com">alvinzus01@gmail.com</a>.</p>
 
-        <h2>Data and privacy</h2>
-        <ul>
-          <li>Tea timers, custom icons, and settings are stored locally on your device.</li>
-          <li>Photo library access is used only when you choose to add a custom icon.</li>
-          <li>Local notifications are used to alert you when a tea timer finishes.</li>
-          <li>The app does not collect, sell, or share personal data.</li>
-        </ul>
-      </section>
-    </main>
+    <h2>About</h2>
+    <p>Gabi's Tea Timer is a local-first tea timer app. No account is required.</p>
+
+    <h2>Privacy</h2>
+    <p>The app does not collect, sell, or share personal data.</p>
+    <p>Tea timers, custom icons, and settings are stored locally on your device.</p>
+    <p>Photo library access is used only when you choose to add a custom icon.</p>
+    <p>Local notifications are used to alert you when a tea timer finishes.</p>
   </body>
 </html>
